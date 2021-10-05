@@ -1,6 +1,6 @@
 p{
-color: brown;
-font-family:'Courier New', Courier, monospace ;
+color: rgb(131, 14, 72);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 margin: left 50px; ;
 text-align: center;
 
@@ -8,7 +8,7 @@ text-align: center;
 .destacados{
 color: darkblue;
 }
-a :hover{
+a:hover{
 background-color: darkmagenta;
 color:red
 }
@@ -26,4 +26,24 @@ text-align: center;
 h2{ 
 color: rgb(73, 7, 20);
 font-size: large 20px;
+}
+.caja{
+    width: 900px;
+    height: 70px;
+    background: rgb(212,241,231);
+background: linear-gradient(90deg, rgba(212,241,231,1) 16%, rgba(232,177,238,1) 48%, rgba(142,241,194,1) 81%);
+box-shadow: 5px 15px 15px black; 
+/*eje x -  eje Y - blur- color*/
+border-radius: 15px;
+padding: 10px;
+}
+.texto{
+    background-color: rgb(196, 250, 243);
+    height: 150px;
+    padding: 20px;
+    column-count: 2;
+    margin-bottom: 20px;
+}
+.texto p{
+    margin: 0;
 }
